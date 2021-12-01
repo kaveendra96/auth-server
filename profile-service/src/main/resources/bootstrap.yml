@@ -1,0 +1,10 @@
+spring:
+  cloud:
+    config:
+      uri: http://localhost:8191
+
+  datasource:
+    url: jdbc:mysql://student.ck6530zwhj6f.ap-south-1.rds.amazonaws.com:3306/student?createDatabaseIfNotExist=true
+    username: admin
+    password: colombocs
+    driver-class-name: com.mysql.jdbc.Driver
